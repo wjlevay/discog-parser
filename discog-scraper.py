@@ -50,23 +50,50 @@ for fragment in fragment_list:
 	session_personnel = fragment_soup.find('p', class_='SessCollPers')
 	personnel = []
 
-	########### NEED TO FIX THIS ################
-	# below method fails when personnel is listed: Abbey, Bobby, Carlos (v), indicating same instrument for all three performers
-	# must add logic that says: if ', ' not directly preceded by '(x)', then find next ' (x)' and append to name
 
 	# check for NoneType, then find the personnel, excluding the (ldr), which is wrapped in a <b> tag
 	# remove the comma-space separator, and strip any whitespace
 	if session_personnel is not None:
 		if session_personnel.next_element.name == 'b':
-			personnel_string = session_personnel.next_element.next_element.next_element.replace(', ', '').strip()
+			personnel_string = session_personnel.next_element.next_element.next_element.lstrip(', ').strip()
 		else:
-			personnel_string = session_personnel.next_element.replace(', ', '').strip()
+			personnel_string = session_personnel.next_element.lstrip(', ').strip()
 
-		# find the personnel-instrumentation combo and make a list
-		personnel = re.findall('(.+? \(.+?\))', personnel_string)
+		personnel = re.split('(.+? \(.+?\)), ', personnel_string)
+
+		# personnel = re.split('(, )[A-Z]', personnel_string)
+
+		personnel_clean = []
+
+		#cleanup on personnel list
+		for person in personnel:
+			if person is not '':
+				personnel_clean.append(person)
+
+
+		#if there is more than one person on an instrument, find the instrument, split the people and append the instrument
+		find_group = re.compile(', [A-Z]')
+		find_ax = re.compile('\(.+?\)')
+		personnel_cleaner = []
+
+		for person in personnel_clean:
+			group = re.search(find_group, person)
+			
+			if group:
+				ax_match = find_ax.search(person)
+				ax = ax_match.group(0)
+				sub_list = person.split(', ')
+				for x in sub_list:
+					if ax not in x:
+						x = x+' '+ax
+					personnel_cleaner.append(x)
+			else:
+				personnel_cleaner.append(person)
+
+		# print(personnel_cleaner)
 
 		#write to the subdict
-		session['personnel'] = personnel
+		session['personnel'] = personnel_cleaner
 
 	# let's get some songs!
 	session_songs = fragment_soup.find_all('span', class_='PerfTitle')
@@ -96,19 +123,19 @@ for fragment in fragment_list:
 
 #print (discog)
 
-with open('data/'+name+'_discog.csv', 'w', newline='', encoding='utf8') as csv_out:
+# with open('data/'+name+'_discog.csv', 'w', newline='', encoding='utf8') as csv_out:
 
-	for a_session in discog:
-		fieldnames = discog[a_session].keys()
-		w = csv.DictWriter(csv_out, fieldnames=fieldnames, delimiter=',', quoting=csv.QUOTE_ALL)
+# 	for a_session in discog:
+# 		fieldnames = discog[a_session].keys()
+# 		w = csv.DictWriter(csv_out, fieldnames=fieldnames, delimiter=',', quoting=csv.QUOTE_ALL)
 		
-		#only write the headers the first time
-		if a_session == 1:
-			w.writeheader()
+# 		#only write the headers the first time
+# 		if a_session == 1:
+# 			w.writeheader()
 		
-		w.writerow(discog[a_session])
+# 		w.writerow(discog[a_session])
 
-	csv_out.close()
+# 	csv_out.close()
 
 with codecs.open('data/'+name+'_discog.json', 'w', encoding='utf-8') as json_out:
 

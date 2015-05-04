@@ -1,40 +1,41 @@
 # Parses discography personnel list and outputs Gephi-formatted csv
 # note: regex to find (instr) is \(.+?\)
 
-import csv, re
+import csv, re, codecs, json
 
 name_input = input('Enter musician name, using regular case and spaces: ')
 name = name_input.lower().replace(' ', '_')
 
-### FIX THIS ###
-# load the json file instead of the csv, so that we can specify the key-value pairs
+discog = {}
 
-with open('data/'+name+'_discog.csv', newline='', encoding='utf-8') as csv_in:
+with codecs.open('data/'+name+'_discog.json', encoding='utf-8') as filename:
+	discog = json.load(filename)
 
 	source_target_list = []
 
-	#dumps the file into the cvs library with some info on how it is formatted
-	discog = csv.reader(csv_in, delimiter=',')
-
-	for row in discog:
+	for session in discog:
 		
-		date = row[2]
-		personnel = row[3]
-		#label = row[1]
-		location = row[0]
+		date = discog[session]['date']
+		personnel = discog[session]['personnel']
+		persons = []
+		record_label = discog[session]['label']
+		location = discog[session]['location']
+		songs = discog[session]['songs']
 
-		pattern = re.compile(' \(.+?\)')
-		person = pattern.sub('', person.strip().split(', ')
-		persons.append(person)
+		# print (personnel)
 
-		if date != '' and location != '':
-			label = date+', '+location
-		elif date != '':
-			label = date
-		elif location != '':
-			label = location
+		for person in personnel:
 
-		#print(label)
+			pattern = re.compile(' \(.+?\)')
+			person = pattern.sub('', person.strip())
+			persons.append(person)
+
+			if date != '' and location != '':
+				gephi_label = date+', '+location
+			elif date != '':
+				gephi_label = date
+			elif location != '':
+				gephi_label = location
 
 		if name_input in persons:
 
@@ -44,9 +45,9 @@ with open('data/'+name+'_discog.csv', newline='', encoding='utf-8') as csv_in:
 
 					if x.strip() != y.strip():
 
-						if [y.strip(), x.strip(), 'undirected', label] not in source_target_list:
+						if [y.strip(), x.strip(), 'undirected', gephi_label] not in source_target_list:
 
-							source_target_list.append([x.strip(), y.strip(), 'undirected', label])
+							source_target_list.append([x.strip(), y.strip(), 'undirected', gephi_label])
 
 	#print (source_target_list)
 
