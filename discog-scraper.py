@@ -72,28 +72,38 @@ for fragment in fragment_list:
 
 
 		#if there is more than one person on an instrument, find the instrument, split the people and append the instrument
+
+		#pattern for more than one person on same instrument
 		find_group = re.compile(', [A-Z]')
+
+		#pattern for instrument in parentheses
 		find_ax = re.compile('\(.+?\)')
-		personnel_cleaner = []
+
+		personnel_subdict = {}
 
 		for person in personnel_clean:
 			group = re.search(find_group, person)
+			ax_match = find_ax.search(person)
+
+			#the instrument string, with parentheses
+			ax = ax_match.group(0)
 			
 			if group:
-				ax_match = find_ax.search(person)
-				ax = ax_match.group(0)
 				sub_list = person.split(', ')
 				for x in sub_list:
-					if ax not in x:
-						x = x+' '+ax
-					personnel_cleaner.append(x)
-			else:
-				personnel_cleaner.append(person)
+					if ax in x:
+						x = find_ax.sub('', x)
+					
+					#clean up the name, remove parenthesis from instrument, and since some musicians have more than one instrument, split instruments into list
+					personnel_subdict[x.strip()] = ax.strip('()').split(', ')
 
-		# print(personnel_cleaner)
+			else:
+				person = find_ax.sub('', person)
+				personnel_subdict[person.strip()] = ax.strip('()').split(', ')
+
 
 		#write to the subdict
-		session['personnel'] = personnel_cleaner
+		session['personnel'] = personnel_subdict
 
 	# let's get some songs!
 	session_songs = fragment_soup.find_all('span', class_='PerfTitle')

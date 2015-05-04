@@ -1,7 +1,6 @@
 # Parses discography personnel list and outputs Gephi-formatted csv
-# note: regex to find (instr) is \(.+?\)
 
-import csv, re, codecs, json
+import csv, codecs, json
 
 name_input = input('Enter musician name, using regular case and spaces: ')
 name = name_input.lower().replace(' ', '_')
@@ -22,12 +21,8 @@ with codecs.open('data/'+name+'_discog.json', encoding='utf-8') as filename:
 		location = discog[session]['location']
 		songs = discog[session]['songs']
 
-		# print (personnel)
-
 		for person in personnel:
 
-			pattern = re.compile(' \(.+?\)')
-			person = pattern.sub('', person.strip())
 			persons.append(person)
 
 			if date != '' and location != '':
@@ -49,7 +44,6 @@ with codecs.open('data/'+name+'_discog.json', encoding='utf-8') as filename:
 
 							source_target_list.append([x.strip(), y.strip(), 'undirected', gephi_label])
 
-	#print (source_target_list)
 
 with open('data/'+name+'_discog_gephi.csv', 'w', newline='', encoding='utf8') as csv_out:
 	w = csv.writer(csv_out, delimiter=',', quoting=csv.QUOTE_ALL)

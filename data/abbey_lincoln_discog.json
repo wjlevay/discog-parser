@@ -3,10 +3,14 @@
         "date": "1954", 
         "label": "Flair", 
         "location": "Los Angeles, CA", 
-        "personnel": [
-            "Blinky Allen (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Blinky Allen": [
+                "d"
+            ]
+        }, 
         "songs": [
             "I'm A Fool To Care", 
             "An Angel Cried"
@@ -16,9 +20,11 @@
         "date": "ca.  1956", 
         "label": "", 
         "location": "Hollywood, CA", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Spread The Word"
         ]
@@ -27,9 +33,11 @@
         "date": "July 1956", 
         "label": "Liberty", 
         "location": "Hollywood, CA", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Lonesome Cup Of Coffee", 
             "She Didn't Say Yes", 
@@ -43,9 +51,11 @@
         "date": "November 5 & 6, 1956", 
         "label": "Liberty", 
         "location": "Hollywood, CA", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Love Walked In", 
             "I Didn't Know About You", 
@@ -59,9 +69,11 @@
         "date": "ca.  November 5, 1956", 
         "label": "Liberty", 
         "location": "Hollywood, CA", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Would I Love You", 
             "This Can't Be Love", 
@@ -75,14 +87,27 @@
         "date": "October 28, 1957", 
         "label": "Riverside", 
         "location": "New York City", 
-        "personnel": [
-            "Sonny Rollins (ts)", 
-            "Kenny Dorham (t)", 
-            "Wynton Kelly (p, b)", 
-            "Paul Chambers (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Kenny Dorham": [
+                "t"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Paul Chambers": [
+                "b"
+            ], 
+            "Sonny Rollins": [
+                "ts"
+            ], 
+            "Wynton Kelly": [
+                "p", 
+                "b"
+            ]
+        }, 
         "songs": [
             "Strong Man", 
             "Happiness Is A Thing Called Joe", 
@@ -99,16 +124,33 @@
         "date": "July 24, 1958", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Jerome Richardson (f, bar)", 
-            "Benny Golson (ts)", 
-            "Kenny Dorham (t)", 
-            "Curtis Fuller (tb)", 
-            "Wynton Kelly (p)", 
-            "Paul Chambers (b)", 
-            "Philly Joe Jones (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Benny Golson": [
+                "ts"
+            ], 
+            "Curtis Fuller": [
+                "tb"
+            ], 
+            "Jerome Richardson": [
+                "f", 
+                "bar"
+            ], 
+            "Kenny Dorham": [
+                "t"
+            ], 
+            "Paul Chambers": [
+                "b"
+            ], 
+            "Philly Joe Jones": [
+                "d"
+            ], 
+            "Wynton Kelly": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Just For Me", 
             "An Occasional Man", 
@@ -121,16 +163,33 @@
         "date": "August 15, 1958", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Sahib Shihab (f, bar)", 
-            "Benny Golson (ts)", 
-            "Art Farmer (t)", 
-            "Curtis Fuller (tb)", 
-            "Wynton Kelly (p)", 
-            "Sam Jones (b)", 
-            "Philly Joe Jones (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Art Farmer": [
+                "t"
+            ], 
+            "Benny Golson": [
+                "ts"
+            ], 
+            "Curtis Fuller": [
+                "tb"
+            ], 
+            "Philly Joe Jones": [
+                "d"
+            ], 
+            "Sahib Shihab": [
+                "f", 
+                "bar"
+            ], 
+            "Sam Jones": [
+                "b"
+            ], 
+            "Wynton Kelly": [
+                "p"
+            ]
+        }, 
         "songs": [
             "I Am In Love", 
             "Love", 
@@ -143,14 +202,27 @@
         "date": "September 29, 1958", 
         "label": "Calliope", 
         "location": "Hollywood, CA", 
-        "personnel": [
-            "Buddy Collette (f, as)", 
-            "Gerald Wilson (t)", 
-            "Al Viola (g)", 
-            "Red Callender (b)", 
-            "Earl Palmer (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Al Viola": [
+                "g"
+            ], 
+            "Buddy Collette": [
+                "f", 
+                "as"
+            ], 
+            "Earl Palmer": [
+                "d"
+            ], 
+            "Gerald Wilson": [
+                "t"
+            ], 
+            "Red Callender": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Out Of The Past", 
             "When A Woman Loves A Man"
@@ -160,14 +232,26 @@
         "date": "March 25, 1959", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Kenny Dorham (t)", 
-            "Les Spann (g)", 
-            "Phil Wright (p)", 
-            "Sam Jones (b)", 
-            "Philly Joe Jones (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Kenny Dorham": [
+                "t"
+            ], 
+            "Les Spann": [
+                "g"
+            ], 
+            "Phil Wright": [
+                "p"
+            ], 
+            "Philly Joe Jones": [
+                "d"
+            ], 
+            "Sam Jones": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Come Sunday", 
             "Softly, As In A Morning Sunrise", 
@@ -178,14 +262,27 @@
         "date": "March 26, 1959", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Les Spann (f, g)", 
-            "Kenny Dorham (t)", 
-            "Wynton Kelly (p)", 
-            "Sam Jones (b)", 
-            "Philly Joe Jones (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Kenny Dorham": [
+                "t"
+            ], 
+            "Les Spann": [
+                "f", 
+                "g"
+            ], 
+            "Philly Joe Jones": [
+                "d"
+            ], 
+            "Sam Jones": [
+                "b"
+            ], 
+            "Wynton Kelly": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Thursday's Child", 
             "Brother, Where Are You?", 
@@ -197,14 +294,26 @@
         "date": "May 12, 1959", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Kenny Dorham (t)", 
-            "Les Spann (g)", 
-            "Wynton Kelly (p)", 
-            "Sam Jones (b)", 
-            "Philly Joe Jones (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Kenny Dorham": [
+                "t"
+            ], 
+            "Les Spann": [
+                "g"
+            ], 
+            "Philly Joe Jones": [
+                "d"
+            ], 
+            "Sam Jones": [
+                "b"
+            ], 
+            "Wynton Kelly": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Lonely House"
         ]
@@ -213,15 +322,29 @@
         "date": "October 9 & 10, 1959", 
         "label": "Mercury", 
         "location": "Universal Recording, Chicago, IL", 
-        "personnel": [
-            "Stanley Turrentine (ts)", 
-            "Tommy Turrentine (t)", 
-            "Julian Priester (tb)", 
-            "Ray Bryant (p)", 
-            "Bobby Boswell (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bobby Boswell": [
+                "b"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Ray Bryant": [
+                "p"
+            ], 
+            "Stanley Turrentine": [
+                "ts"
+            ], 
+            "Tommy Turrentine": [
+                "t"
+            ]
+        }, 
         "songs": [
             "Speak Low", 
             "Never Let Me Go", 
@@ -239,15 +362,29 @@
         "date": "ca.  November 1959", 
         "label": "Riverside", 
         "location": "Reeves Sound Studios, New York City", 
-        "personnel": [
-            "Stanley Turrentine (ts)", 
-            "Tommy Turrentine (t)", 
-            "Julian Priester (tb)", 
-            "Cedar Walton (p)", 
-            "Bobby Boswell (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bobby Boswell": [
+                "b"
+            ], 
+            "Cedar Walton": [
+                "p"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Stanley Turrentine": [
+                "ts"
+            ], 
+            "Tommy Turrentine": [
+                "t"
+            ]
+        }, 
         "songs": [
             "Afro-Blue", 
             "Let Up", 
@@ -259,15 +396,29 @@
         "date": "August 31, 1960", 
         "label": "Candid", 
         "location": "Nola Penthouse Sound Studios, New York City", 
-        "personnel": [
-            "Walter Benton (ts)", 
-            "Coleman Hawkins (ts)", 
-            "Booker Little (t)", 
-            "Julian Priester (tb)", 
-            "James Schenk (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Booker Little": [
+                "t"
+            ], 
+            "Coleman Hawkins": [
+                "ts"
+            ], 
+            "James Schenk": [
+                "b"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Walter Benton": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "Driva' Man", 
             "Freedom Day [aka Libert\u00e9]"
@@ -277,17 +428,35 @@
         "date": "September 6, 1960", 
         "label": "Candid", 
         "location": "Nola Penthouse Sound Studios, New York City", 
-        "personnel": [
-            "Walter Benton (ts)", 
-            "Booker Little (t)", 
-            "Julian Priester (tb)", 
-            "James Schenk (b)", 
-            "Max Roach (d)", 
-            "Babatunde Olatunji (cga)", 
-            "Thomas Du Vall (per)", 
-            "Ray Mantilla (per)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Babatunde Olatunji": [
+                "cga"
+            ], 
+            "Booker Little": [
+                "t"
+            ], 
+            "James Schenk": [
+                "b"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Ray Mantilla": [
+                "per"
+            ], 
+            "Thomas Du Vall": [
+                "per"
+            ], 
+            "Walter Benton": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "All Africa", 
             "Tears For Johannesburg", 
@@ -298,19 +467,42 @@
         "date": "November 1, 1960", 
         "label": "Candid", 
         "location": "Nola Penthouse Sound Studios, New York City", 
-        "personnel": [
-            "Eric Dolphy (as)", 
-            "Walter Benton (ts)", 
-            "Cecil Payne (bar)", 
-            "Benny Bailey (t)", 
-            "Booker Little (t)", 
-            "Kenny Dorham (t, p)", 
-            "Julian Priester (tb)", 
-            "Peck Morrison (b)", 
-            "Jo Jones (d)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Benny Bailey": [
+                "t"
+            ], 
+            "Booker Little": [
+                "t"
+            ], 
+            "Cecil Payne": [
+                "bar"
+            ], 
+            "Eric Dolphy": [
+                "as"
+            ], 
+            "Jo Jones": [
+                "d"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Kenny Dorham": [
+                "t", 
+                "p"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Peck Morrison": [
+                "b"
+            ], 
+            "Walter Benton": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "Oh Yeah, Oh Yeah", 
             "Cliff Walk", 
@@ -321,19 +513,44 @@
         "date": "February 22, 1961", 
         "label": "Candid", 
         "location": "Nola Penthouse Studios, New York City", 
-        "personnel": [
-            "Eric Dolphy (pic, f, bcl, as)", 
-            "Walter Benton (ts)", 
-            "Coleman Hawkins (ts)", 
-            "Booker Little (t)", 
-            "Julian Priester (tb)", 
-            "Mal Waldron (p)", 
-            "Art Davis (b)", 
-            "Max Roach (d)", 
-            "Roger 'Montego Joe' Sanders (cga)", 
-            "Robert Whitley (cga)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Art Davis": [
+                "b"
+            ], 
+            "Booker Little": [
+                "t"
+            ], 
+            "Coleman Hawkins": [
+                "ts"
+            ], 
+            "Eric Dolphy": [
+                "pic", 
+                "f", 
+                "bcl", 
+                "as"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Mal Waldron": [
+                "p"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Robert Whitley": [
+                "cga"
+            ], 
+            "Roger 'Montego Joe' Sanders": [
+                "cga"
+            ], 
+            "Walter Benton": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "Straight Ahead", 
             "When Malindy Sings", 
@@ -348,18 +565,38 @@
         "date": "August 1, 1961", 
         "label": "Impulse!", 
         "location": "New York City", 
-        "personnel": [
-            "Eric Dolphy (as)", 
-            "Clifford Jordan (ts)", 
-            "Booker Little (t)", 
-            "Julian Priester (tb)", 
-            "Mal Waldron (p)", 
-            "Art Davis (b)", 
-            "Max Roach (d)", 
-            "Carlos 'Patato' Vald\u00e9s (cga)", 
-            "Carlos Eugenio (per)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Art Davis": [
+                "b"
+            ], 
+            "Booker Little": [
+                "t"
+            ], 
+            "Carlos 'Patato' Vald\u00e9s": [
+                "cga"
+            ], 
+            "Carlos Eugenio": [
+                "per"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Eric Dolphy": [
+                "as"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Mal Waldron": [
+                "p"
+            ], 
+            "Max Roach": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Garvey's Ghost", 
             "Mendacity"
@@ -369,17 +606,35 @@
         "date": "February 27, 1962", 
         "label": "Impulse!", 
         "location": "Fine Recording Studio, New York City", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Richard Williams (t)", 
-            "Julian Priester (tb)", 
-            "Mal Waldron (p)", 
-            "Art Davis (b)", 
-            "Max Roach (d)", 
-            "Earl Baker (v)", 
-            "Abbey Lincoln (v)", 
-            "Coleridge-Taylor Perkinson (con)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Art Davis": [
+                "b"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Coleridge-Taylor Perkinson": [
+                "con"
+            ], 
+            "Earl Baker": [
+                "v"
+            ], 
+            "Julian Priester": [
+                "tb"
+            ], 
+            "Mal Waldron": [
+                "p"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Richard Williams": [
+                "t"
+            ]
+        }, 
         "songs": [
             "Lonesome Lover", 
             "Sunday Afternoon", 
@@ -390,13 +645,23 @@
         "date": "ca.  1963", 
         "label": "[private recording]", 
         "location": "", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Ronnie Mathews (p)", 
-            "Eddie Khan (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Eddie Khan": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Ronnie Mathews": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Six Bits Blues"
         ]
@@ -405,13 +670,23 @@
         "date": "January 1964", 
         "label": "Magnetic", 
         "location": "Stockholm, Sweden", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Coleridge-Taylor Perkinson (p)", 
-            "Eddie Khan (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Coleridge-Taylor Perkinson": [
+                "p"
+            ], 
+            "Eddie Khan": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Who Will Buy?", 
             "Driva' Man", 
@@ -422,13 +697,23 @@
         "date": "January 14, 1964", 
         "label": "Magnetic", 
         "location": "Odd Fellows Palaeet, Copenhagen, Denmark", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Coleridge-Taylor Perkinson (p)", 
-            "Eddie Khan (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Coleridge-Taylor Perkinson": [
+                "p"
+            ], 
+            "Eddie Khan": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Driva' Man", 
             "Tears For Johannesburg", 
@@ -441,13 +726,23 @@
         "date": "January 18, 1964", 
         "label": "[radio broadcast]", 
         "location": "Radio Bremen Gro\u00dfer Sendesaal, Bremen, Germany", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Coleridge-Taylor Perkinson (p)", 
-            "Eddie Khan (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Coleridge-Taylor Perkinson": [
+                "p"
+            ], 
+            "Eddie Khan": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ]
+        }, 
         "songs": [
             "The Highest Mountain", 
             "[unknown title]", 
@@ -463,13 +758,23 @@
         "date": "July 4, 1964", 
         "label": "[radio broadcast]", 
         "location": "Newport Jazz Festival - Freebody Park, Newport, RI", 
-        "personnel": [
-            "Clifford Jordan (ts)", 
-            "Lonnie Liston Smith (p)", 
-            "Eddie Khan (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Clifford Jordan": [
+                "ts"
+            ], 
+            "Eddie Khan": [
+                "b"
+            ], 
+            "Lonnie Liston Smith": [
+                "p"
+            ], 
+            "Max Roach": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Long As You're Living", 
             "Driva' Man", 
@@ -483,13 +788,23 @@
         "date": "April 27, 1968", 
         "label": "[radio broadcast]", 
         "location": "Rome, Italy", 
-        "personnel": [
-            "Steve Lacy (ss)", 
-            "Franco D'Andrea (p)", 
-            "Giovanni Tommaso (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Franco D'Andrea": [
+                "p"
+            ], 
+            "Giovanni Tommaso": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Steve Lacy": [
+                "ss"
+            ]
+        }, 
         "songs": [
             "When Malindy Sings", 
             "Triptych: Prayer/Protest/Peace", 
@@ -504,13 +819,23 @@
         "date": "May 1968", 
         "label": "[radio broadcast]", 
         "location": "Oslo, Norway", 
-        "personnel": [
-            "Steve Lacy (ss)", 
-            "Franco D'Andrea (p)", 
-            "Giovanni Tommaso (b)", 
-            "Max Roach (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Franco D'Andrea": [
+                "p"
+            ], 
+            "Giovanni Tommaso": [
+                "b"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Steve Lacy": [
+                "ss"
+            ]
+        }, 
         "songs": [
             "Patty Pat", 
             "'Round Midnight"
@@ -520,17 +845,35 @@
         "date": "April 7, 1971", 
         "label": "Atlantic", 
         "location": "Atlantic Recording Studios, New York City", 
-        "personnel": [
-            "Billy Harper (ts)", 
-            "Cecil Bridgewater (t)", 
-            "George Cables (p)", 
-            "Eddie Mathias (eb)", 
-            "Max Roach (d)", 
-            "Ralph MacDonald (per)", 
-            "Ruby McClure (v)", 
-            "Dorothy White (v)", 
-            "J. C. White (v)"
-        ], 
+        "personnel": {
+            "Billy Harper": [
+                "ts"
+            ], 
+            "Cecil Bridgewater": [
+                "t"
+            ], 
+            "Dorothy White": [
+                "v"
+            ], 
+            "Eddie Mathias": [
+                "eb"
+            ], 
+            "George Cables": [
+                "p"
+            ], 
+            "J. C. White": [
+                "v"
+            ], 
+            "Max Roach": [
+                "d"
+            ], 
+            "Ralph MacDonald": [
+                "per"
+            ], 
+            "Ruby McClure": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Troubled Waters", 
             "Go Down, Moses", 
@@ -542,12 +885,20 @@
         "date": "ca.  1973", 
         "label": "Elec Records Co. Ltd.", 
         "location": "Dug, Tokyo, Japan", 
-        "personnel": [
-            "Hiromasa Suzuki (p)", 
-            "Kunimitsu Inaba (b)", 
-            "Tetsujiro Obara (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Hiromasa Suzuki": [
+                "p"
+            ], 
+            "Kunimitsu Inaba": [
+                "b"
+            ], 
+            "Tetsujiro Obara": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Caged Bird", 
             "Somos Novios (Imposible)", 
@@ -564,14 +915,28 @@
         "date": "June 23, 1973", 
         "label": "Philips", 
         "location": "Tokyo, Japan", 
-        "personnel": [
-            "Dave Liebman (f, ss, ts)", 
-            "Hiromasa Suzuki (p)", 
-            "Kunimitsu Inaba (b)", 
-            "Al Foster (d)", 
-            "James Mtume Foreman (cga)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Al Foster": [
+                "d"
+            ], 
+            "Dave Liebman": [
+                "f", 
+                "ss", 
+                "ts"
+            ], 
+            "Hiromasa Suzuki": [
+                "p"
+            ], 
+            "James Mtume Foreman": [
+                "cga"
+            ], 
+            "Kunimitsu Inaba": [
+                "b"
+            ]
+        }, 
         "songs": [
             "You And Me Love", 
             "Natas (Playmate)", 
@@ -587,12 +952,20 @@
         "date": "January 24, 1980", 
         "label": "[private recording]", 
         "location": "Vera, Gr\u00f6ningen, Netherlands", 
-        "personnel": [
-            "Wayne Wright (p)", 
-            "John Duke (b)", 
-            "Doug Sides (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Doug Sides": [
+                "d"
+            ], 
+            "John Duke": [
+                "b"
+            ], 
+            "Wayne Wright": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Painted Lady", 
             "Long As You're Living", 
@@ -616,14 +989,27 @@
         "date": "February 4, 1980", 
         "label": "Blue Marge", 
         "location": "Paris, France", 
-        "personnel": [
-            "Archie Shepp (ss, ts)", 
-            "Roy Burrowes (t)", 
-            "Hilton Ruiz (p)", 
-            "Jack Gregg (b)", 
-            "Freddie Waits (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Archie Shepp": [
+                "ss", 
+                "ts"
+            ], 
+            "Freddie Waits": [
+                "d"
+            ], 
+            "Hilton Ruiz": [
+                "p"
+            ], 
+            "Jack Gregg": [
+                "b"
+            ], 
+            "Roy Burrowes": [
+                "t"
+            ]
+        }, 
         "songs": [
             "Sophisticated Lady", 
             "Golden Lady", 
@@ -637,13 +1023,23 @@
         "date": "December 15, 1980", 
         "label": "Muse", 
         "location": "Sage & Sound Studios, Hollywood, CA", 
-        "personnel": [
-            "Bob Berg (ts)", 
-            "Cedar Walton (p)", 
-            "David Williams (b)", 
-            "Billy Higgins (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Billy Higgins": [
+                "d"
+            ], 
+            "Bob Berg": [
+                "ts"
+            ], 
+            "Cedar Walton": [
+                "p"
+            ], 
+            "David Williams": [
+                "b"
+            ]
+        }, 
         "songs": [
             "The Maestro", 
             "Rhythm-a-ning", 
@@ -659,12 +1055,20 @@
         "date": "January 9, 1982", 
         "label": "[private recording]", 
         "location": "Stuttgart, Germany", 
-        "personnel": [
-            "James Weidman (p)", 
-            "Billy Johnson (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Billy Johnson": [
+                "b"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Monkery's The Blues [lyric version of Blue Monk]", 
             "Caged Bird", 
@@ -679,13 +1083,23 @@
         "date": "July 1982", 
         "label": "[private recording]", 
         "location": "Den Haag, Netherlands", 
-        "personnel": [
-            "Archie Shepp (ts)", 
-            "Mal Waldron (p)", 
-            "Santi Debriano (b)", 
-            "Marvin 'Smitty' Smith (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Archie Shepp": [
+                "ts"
+            ], 
+            "Mal Waldron": [
+                "p"
+            ], 
+            "Marvin 'Smitty' Smith": [
+                "d"
+            ], 
+            "Santi Debriano": [
+                "b"
+            ]
+        }, 
         "songs": [
             "God Bless The Child", 
             "You're My Thrill", 
@@ -696,17 +1110,35 @@
         "date": "November 1983", 
         "label": "Enja", 
         "location": "Classic Sound, New York City", 
-        "personnel": [
-            "Steve Coleman (as)", 
-            "James Weidman (p)", 
-            "Billy Johnson (b)", 
-            "Mark Johnson (d)", 
-            "Jerry Gonzalez (per)", 
-            "Arlene Knox (v)", 
-            "Abbey Lincoln (v)", 
-            "Bemshee Shirer (v)", 
-            "Naima Williams (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Arlene Knox": [
+                "v"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "Billy Johnson": [
+                "b"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Jerry Gonzalez": [
+                "per"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ], 
+            "Naima Williams": [
+                "v"
+            ], 
+            "Steve Coleman": [
+                "as"
+            ]
+        }, 
         "songs": [
             "The River", 
             "Whistling Away The Dark", 
@@ -722,14 +1154,26 @@
         "date": "July 29, 1984", 
         "label": "[radio broadcast]", 
         "location": "Peppermint Lounge, Orange, NJ", 
-        "personnel": [
-            "James Weidman (p)", 
-            "Billy Johnson (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)", 
-            "Bemshee Shirer (v)", 
-            "Cassandra Wilson (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "Billy Johnson": [
+                "b"
+            ], 
+            "Cassandra Wilson": [
+                "v"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Sophisticated Lady", 
             "In A Sentimental Mood", 
@@ -756,14 +1200,26 @@
         "date": "August 16, 1986", 
         "label": "[radio broadcast]", 
         "location": "Peppermint Lounge, Orange, NJ", 
-        "personnel": [
-            "James Weidman (p)", 
-            "Billy Johnson (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)", 
-            "Bemshee Shirer (v)", 
-            "Cassandra Wilson (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "Billy Johnson": [
+                "b"
+            ], 
+            "Cassandra Wilson": [
+                "v"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ]
+        }, 
         "songs": [
             "The River", 
             "Whistling Away The Dark", 
@@ -779,13 +1235,23 @@
         "date": "November 6 & 7, 1987", 
         "label": "Enja", 
         "location": "Universal Jazz Coalition, New York City", 
-        "personnel": [
-            "Harold Vick (ts)", 
-            "James Weidman (p)", 
-            "Tarik Shah (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Harold Vick": [
+                "ts"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ], 
+            "Tarik Shah": [
+                "b"
+            ]
+        }, 
         "songs": [
             "What A Little Moonlight Can Do", 
             "I Only Have Eyes For You", 
@@ -810,10 +1276,14 @@
         "date": "ca.  1989", 
         "label": "Novus", 
         "location": "", 
-        "personnel": [
-            "Geri Allen (p)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Geri Allen": [
+                "p"
+            ]
+        }, 
         "songs": [
             "For All We Know"
         ]
@@ -822,10 +1292,14 @@
         "date": "August 4, 1989", 
         "label": "[private recording]", 
         "location": "Alice Tully Hall, New York City", 
-        "personnel": [
-            "Jimmy Heath (ts)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Jimmy Heath": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -834,14 +1308,26 @@
         "date": "ca.  1990", 
         "label": "Verve", 
         "location": "Systems Two Recording Studio, Brooklyn, NY", 
-        "personnel": [
-            "Steve Williamson (ts)", 
-            "David Gilmore (g)", 
-            "Julian Joseph (p)", 
-            "Lonnie Plaxico (b)", 
-            "Mark Mond\u00e9sir (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "David Gilmore": [
+                "g"
+            ], 
+            "Julian Joseph": [
+                "p"
+            ], 
+            "Lonnie Plaxico": [
+                "b"
+            ], 
+            "Mark Mond\u00e9sir": [
+                "d"
+            ], 
+            "Steve Williamson": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "A Waltz For Grace"
         ]
@@ -850,16 +1336,33 @@
         "date": "February 21 & 22, 1990", 
         "label": "Verve", 
         "location": "RCA Studios, New York City", 
-        "personnel": [
-            "Jerry Dodgion (as)", 
-            "Jackie McLean (as)", 
-            "Clark Terry (t, fh)", 
-            "Alain Jean-Marie (p)", 
-            "Charlie Haden (b)", 
-            "Billy Higgins (d)", 
-            "Abbey Lincoln (v)", 
-            "Ron Carter (con)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Alain Jean-Marie": [
+                "p"
+            ], 
+            "Billy Higgins": [
+                "d"
+            ], 
+            "Charlie Haden": [
+                "b"
+            ], 
+            "Clark Terry": [
+                "t", 
+                "fh"
+            ], 
+            "Jackie McLean": [
+                "as"
+            ], 
+            "Jerry Dodgion": [
+                "as"
+            ], 
+            "Ron Carter": [
+                "con"
+            ]
+        }, 
         "songs": [
             "The World Is Falling Down", 
             "First Song (For Ruth)", 
@@ -875,12 +1378,20 @@
         "date": "July 18, 1990", 
         "label": "[private recording]", 
         "location": "Fat Tuesday's, New York City", 
-        "personnel": [
-            "James Weidman (p)", 
-            "Tarik Shah (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ], 
+            "Tarik Shah": [
+                "b"
+            ]
+        }, 
         "songs": [
             "The Heel", 
             "Ten Cents A Dance", 
@@ -893,14 +1404,28 @@
         "date": "September 5 & 6, 1990", 
         "label": "Antilles", 
         "location": "BMG Studios, New York City", 
-        "personnel": [
-            "Frank Morgan (ss, as)", 
-            "Roy Hargrove (t, fh)", 
-            "George Cables (p)", 
-            "David Williams (b)", 
-            "Lewis Nash (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "David Williams": [
+                "b"
+            ], 
+            "Frank Morgan": [
+                "ss", 
+                "as"
+            ], 
+            "George Cables": [
+                "p"
+            ], 
+            "Lewis Nash": [
+                "d"
+            ], 
+            "Roy Hargrove": [
+                "t", 
+                "fh"
+            ]
+        }, 
         "songs": [
             "When You Wish Upon A Star", 
             "Footprints", 
@@ -917,14 +1442,26 @@
         "date": "February 25 & 26, 1991", 
         "label": "Verve", 
         "location": "BMG Studios, New York City", 
-        "personnel": [
-            "Stan Getz (ts)", 
-            "Hank Jones (p)", 
-            "Charlie Haden (b)", 
-            "Mark Johnson (d)", 
-            "Maxine Roach (vl)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Charlie Haden": [
+                "b"
+            ], 
+            "Hank Jones": [
+                "p"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ], 
+            "Maxine Roach": [
+                "vl"
+            ], 
+            "Stan Getz": [
+                "ts"
+            ]
+        }, 
         "songs": [
             "Bird Alone", 
             "I'm In Love", 
@@ -942,14 +1479,26 @@
         "date": "August 7, 1991", 
         "label": "[radio broadcast]", 
         "location": "Alice Tully Hall, New York City", 
-        "personnel": [
-            "Jackie McLean (as)", 
-            "Wynton Marsalis (t)", 
-            "Cedar Walton (p)", 
-            "David Williams (b)", 
-            "Billy Higgins (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Billy Higgins": [
+                "d"
+            ], 
+            "Cedar Walton": [
+                "p"
+            ], 
+            "David Williams": [
+                "b"
+            ], 
+            "Jackie McLean": [
+                "as"
+            ], 
+            "Wynton Marsalis": [
+                "t"
+            ]
+        }, 
         "songs": [
             "How High The Moon", 
             "The World Is Falling Down", 
@@ -962,9 +1511,11 @@
         "date": "October 29, 1991", 
         "label": "[private recording]", 
         "location": "Condon's, New York City", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "I Got Thunder (And It Rings)", 
             "You Gotta Pay The Band", 
@@ -979,9 +1530,11 @@
         "date": "October 31, 1991", 
         "label": "[private recording]", 
         "location": "Condon's, New York City", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "I Got Thunder (And It Rings)", 
             "You Gotta Pay The Band", 
@@ -996,25 +1549,59 @@
         "date": "February 24 & 25, 1992", 
         "label": "Verve", 
         "location": "BMG Studios, New York City", 
-        "personnel": [
-            "Stanley Turrentine (ts)", 
-            "J. J. Johnson (tb)", 
-            "Rodney Kendrick (p)", 
-            "Marcus McLaurine (b)", 
-            "Yoron Israel (d)", 
-            "Grady Tate (d)", 
-            "Babatunde Olatunji (per)", 
-            "Kehinde O'Uhuru (per)", 
-            "Sul\u00e9 O'Uhuru (per)", 
-            "Gordy Ryan (per)", 
-            "Maxine Roach (vl)", 
-            "Abbey Lincoln (v)", 
-            "The Noel Singers (v)", 
-            "Cleotha Staple (v)", 
-            "Mavis Staple (v)", 
-            "Roebuck 'Pops' Staple (v)", 
-            "Randolph Noel (con)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Babatunde Olatunji": [
+                "per"
+            ], 
+            "Cleotha Staple": [
+                "v"
+            ], 
+            "Gordy Ryan": [
+                "per"
+            ], 
+            "Grady Tate": [
+                "d"
+            ], 
+            "J. J. Johnson": [
+                "tb"
+            ], 
+            "Kehinde O'Uhuru": [
+                "per"
+            ], 
+            "Marcus McLaurine": [
+                "b"
+            ], 
+            "Mavis Staple": [
+                "v"
+            ], 
+            "Maxine Roach": [
+                "vl"
+            ], 
+            "Randolph Noel": [
+                "con"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ], 
+            "Roebuck 'Pops' Staple": [
+                "v"
+            ], 
+            "Stanley Turrentine": [
+                "ts"
+            ], 
+            "Sul\u00e9 O'Uhuru": [
+                "per"
+            ], 
+            "The Noel Singers": [
+                "v"
+            ], 
+            "Yoron Israel": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Rainbow", 
             "Evalina Coffey (The Legend Of)", 
@@ -1033,9 +1620,11 @@
         "date": "March 20, 1992", 
         "label": "[private recording]", 
         "location": "Condon's, New York City", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "The Music Is The Magic", 
             "Ten Cents A Dance", 
@@ -1051,12 +1640,20 @@
         "date": "July 5, 1992", 
         "label": "[television broadcast]", 
         "location": "Theaterhaus, Jazzgipfel, Stuttgart, Germany", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Billy Johnson (b)", 
-            "Mark Johnson (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Billy Johnson": [
+                "b"
+            ], 
+            "Mark Johnson": [
+                "d"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "The Music Is The Magic", 
             "Bird Alone", 
@@ -1076,10 +1673,14 @@
         "date": "October 4-6, 1992", 
         "label": "Verve", 
         "location": "Studio Davout, Paris, France", 
-        "personnel": [
-            "Hank Jones (p)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Hank Jones": [
+                "p"
+            ]
+        }, 
         "songs": [
             "A Part Of Me", 
             "There Are Such Things", 
@@ -1102,12 +1703,20 @@
         "date": "October 18, 1992", 
         "label": "[private recording]", 
         "location": "Fat Tuesdays, New York City", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Up Jumped Spring [lyric version]", 
             "I Got Thunder (And It Rings)", 
@@ -1118,12 +1727,20 @@
         "date": "November 22, 1992", 
         "label": "[private recording]", 
         "location": "Monmouth County Library, Shrewsbury, NJ", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Bird Alone", 
             "People In Me", 
@@ -1137,12 +1754,20 @@
         "date": "1993", 
         "label": "ITM", 
         "location": "Sweet Basil, New York City", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Yoron Israel (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ], 
+            "Yoron Israel": [
+                "d"
+            ]
+        }, 
         "songs": [
             "The Music Is The Magic", 
             "Bird Alone", 
@@ -1157,12 +1782,20 @@
         "date": "March 29, 1993", 
         "label": "[private recording]", 
         "location": "Schomburg Center For Research In Black Culture, New York City", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Mark Helias (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Mark Helias": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1171,12 +1804,20 @@
         "date": "July 3, 1993", 
         "label": "[radio broadcast]", 
         "location": "Skeppsholmen Festival, Stockholm, Sweden", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "The Music Is The Magic", 
             "Throw It Away", 
@@ -1190,12 +1831,20 @@
         "date": "July 4, 1993", 
         "label": "[private recording]", 
         "location": "Montreux Jazz Festival - New Q's, Montreux, Switzerland", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Long As You're Living", 
             "Throw It Away", 
@@ -1212,12 +1861,21 @@
         "date": "August 19-21, 1993", 
         "label": "Verve", 
         "location": "Power Station, New York City", 
-        "personnel": [
-            "Bheki Mseleku (ts, p)", 
-            "Michael Bowie (b)", 
-            "Marvin 'Smitty' Smith (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bheki Mseleku": [
+                "ts", 
+                "p"
+            ], 
+            "Marvin 'Smitty' Smith": [
+                "d"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Through The Years"
         ]
@@ -1226,12 +1884,20 @@
         "date": "March 7, 1994", 
         "label": "[private recording]", 
         "location": "Schomburg Center For Research In Black Culture, New York City", 
-        "personnel": [
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Alvester Garnett (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Alvester Garnett": [
+                "d"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1240,13 +1906,23 @@
         "date": "April 6, 1994", 
         "label": "Verve", 
         "location": "Carnegie Hall, New York City", 
-        "personnel": [
-            "J. J. Johnson (tb)", 
-            "Hank Jones (p)", 
-            "Charlie Haden (b)", 
-            "Al Foster (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Al Foster": [
+                "d"
+            ], 
+            "Charlie Haden": [
+                "b"
+            ], 
+            "Hank Jones": [
+                "p"
+            ], 
+            "J. J. Johnson": [
+                "tb"
+            ]
+        }, 
         "songs": [
             "I Must Have That Man"
         ]
@@ -1255,26 +1931,64 @@
         "date": "May 29, August 29, November 7 & 8, 1994", 
         "label": "Verve", 
         "location": "Clinton Recording Studios, New York City", 
-        "personnel": [
-            "Julien Lourau (ss, ts)", 
-            "Roy Hargrove (t)", 
-            "Pat Metheny (g)", 
-            "Lucky Peterson (g, v)", 
-            "Kenny Barron (p)", 
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Charlie Haden (b)", 
-            "Christian McBride (b)", 
-            "Victor Lewis (d)", 
-            "Sandra Billingslea (vn)", 
-            "Pierre Blanchard (vn)", 
-            "Vincent Pagliarin (vn)", 
-            "Fr\u00e9d\u00e9ric Fymard (vl)", 
-            "Anne-Gaelle Bisquay (vc)", 
-            "Marc Gilet (vc)", 
-            "John Robinson (vc)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Anne-Gaelle Bisquay": [
+                "vc"
+            ], 
+            "Charlie Haden": [
+                "b"
+            ], 
+            "Christian McBride": [
+                "b"
+            ], 
+            "Fr\u00e9d\u00e9ric Fymard": [
+                "vl"
+            ], 
+            "John Robinson": [
+                "vc"
+            ], 
+            "Julien Lourau": [
+                "ss", 
+                "ts"
+            ], 
+            "Kenny Barron": [
+                "p"
+            ], 
+            "Lucky Peterson": [
+                "g", 
+                "v"
+            ], 
+            "Marc Gilet": [
+                "vc"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Pat Metheny": [
+                "g"
+            ], 
+            "Pierre Blanchard": [
+                "vn"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ], 
+            "Roy Hargrove": [
+                "t"
+            ], 
+            "Sandra Billingslea": [
+                "vn"
+            ], 
+            "Victor Lewis": [
+                "d"
+            ], 
+            "Vincent Pagliarin": [
+                "vn"
+            ]
+        }, 
         "songs": [
             "Throw It Away", 
             "A Turtle's Dream", 
@@ -1293,12 +2007,20 @@
         "date": "ca.  1996", 
         "label": "[private recording]", 
         "location": "BET Jazz Central Station TV", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Carter Beauford (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Carter Beauford": [
+                "d"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Who Used To Dance", 
             "Throw It Away", 
@@ -1312,17 +2034,35 @@
         "date": "ca.  1996", 
         "label": "Verve", 
         "location": "", 
-        "personnel": [
-            "Jesse Davis (as)", 
-            "Ron Blake (ts)", 
-            "Nicholas Payton (t)", 
-            "Roy Hargrove (fh)", 
-            "Mark Whitfield (g)", 
-            "Stephen Scott (p)", 
-            "Christian McBride (b)", 
-            "Billy Drummond (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Billy Drummond": [
+                "d"
+            ], 
+            "Christian McBride": [
+                "b"
+            ], 
+            "Jesse Davis": [
+                "as"
+            ], 
+            "Mark Whitfield": [
+                "g"
+            ], 
+            "Nicholas Payton": [
+                "t"
+            ], 
+            "Ron Blake": [
+                "ts"
+            ], 
+            "Roy Hargrove": [
+                "fh"
+            ], 
+            "Stephen Scott": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Christmas Cheer", 
             "This Christmas"
@@ -1332,25 +2072,60 @@
         "date": "April 6 & 7, 1996", 
         "label": "Verve", 
         "location": "Clinton Recording Studios, New York City", 
-        "personnel": [
-            "Riley T. Bandy III (as)", 
-            "Steve Coleman (as)", 
-            "Oliver Lake (as)", 
-            "Frank Morgan (as)", 
-            "Justin Robinson (as)", 
-            "Graham Haynes (c)", 
-            "Marc Cary (p)", 
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "John Ormond (b)", 
-            "Turu Alexander (d)", 
-            "Alvester Garnett (d)", 
-            "Aaron Walker (d, per)", 
-            "Bazzi Bartholomew Gray (v)", 
-            "Arthur Green (v)", 
-            "Abbey Lincoln (v)", 
-            "Savion Glover (dnc)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d", 
+                "per"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Alvester Garnett": [
+                "d"
+            ], 
+            "Arthur Green": [
+                "v"
+            ], 
+            "Bazzi Bartholomew Gray": [
+                "v"
+            ], 
+            "Frank Morgan": [
+                "as"
+            ], 
+            "Graham Haynes": [
+                "c"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Justin Robinson": [
+                "as"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Oliver Lake": [
+                "as"
+            ], 
+            "Riley T. Bandy III": [
+                "as"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ], 
+            "Savion Glover": [
+                "dnc"
+            ], 
+            "Steve Coleman": [
+                "as"
+            ], 
+            "Turu Alexander": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Love Has Gone Away", 
             "Who Used To Dance", 
@@ -1366,13 +2141,23 @@
         "date": "May 19, 1996", 
         "label": "Verve", 
         "location": "Clinton Recording Studios, New York City", 
-        "personnel": [
-            "Julien Lourau (ts)", 
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Julien Lourau": [
+                "ts"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Mr. Tambourine Man"
         ]
@@ -1381,12 +2166,20 @@
         "date": "June 20, 1996", 
         "label": "[private recording]", 
         "location": "Iridium, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1395,12 +2188,21 @@
         "date": "July 14, 1996", 
         "label": "[radio broadcast]", 
         "location": "Jazzhus, Copenhagen, Denmark", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b, v)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b", 
+                "v"
+            ]
+        }, 
         "songs": [
             "Bird Alone", 
             "Throw It Away", 
@@ -1420,9 +2222,11 @@
         "date": "September 18, 1996", 
         "label": "[private recording]", 
         "location": "Schomburg Center For Research In Black Culture, New York City", 
-        "personnel": [
-            "Abbey Lincoln (spk)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "spk"
+            ]
+        }, 
         "songs": [
             "[unknown title]"
         ]
@@ -1431,12 +2235,20 @@
         "date": "October 8, 1996", 
         "label": "[private recording]", 
         "location": "Iridium, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1445,12 +2257,20 @@
         "date": "October 9, 1996", 
         "label": "[private recording]", 
         "location": "Iridium, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1459,12 +2279,20 @@
         "date": "October 12, 1996", 
         "label": "[private recording]", 
         "location": "Iridium, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1473,12 +2301,20 @@
         "date": "March 14, 1997", 
         "label": "[radio broadcast]", 
         "location": "Cleveland Museum Of Art, Cleveland, OH", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Michael Bowie (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1487,12 +2323,20 @@
         "date": "June 21, 1997", 
         "label": "[private recording]", 
         "location": "Iridium, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Steve Kirby (b)", 
-            "Aaron Walker (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Aaron Walker": [
+                "d"
+            ], 
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Steve Kirby": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Bird Alone", 
             "Throw It Away", 
@@ -1508,12 +2352,20 @@
         "date": "August 15-17, 1997", 
         "label": "BMG", 
         "location": "Antwerp, Belgium", 
-        "personnel": [
-            "Mal Waldron (p)", 
-            "Reggie Workman (b)", 
-            "Andrew Cyrille (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Andrew Cyrille": [
+                "d"
+            ], 
+            "Mal Waldron": [
+                "p"
+            ], 
+            "Reggie Workman": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Straight Ahead", 
             "God Bless The Child"
@@ -1523,18 +2375,40 @@
         "date": "June 3-5, 1998", 
         "label": "Verve", 
         "location": "Avatar Studios, New York City", 
-        "personnel": [
-            "Nicholas Payton (t, fh)", 
-            "Bobby Hutcherson (vib, mar)", 
-            "Marc Cary (p)", 
-            "James Hurt (p)", 
-            "Michael Bowie (b)", 
-            "John Ormond (b)", 
-            "Alvester Garnett (d)", 
-            "Daniel Moreno (per)", 
-            "Maggie Brown (v)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Alvester Garnett": [
+                "d"
+            ], 
+            "Bobby Hutcherson": [
+                "vib", 
+                "mar"
+            ], 
+            "Daniel Moreno": [
+                "per"
+            ], 
+            "James Hurt": [
+                "p"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Maggie Brown": [
+                "v"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Nicholas Payton": [
+                "t", 
+                "fh"
+            ]
+        }, 
         "songs": [
             "And It's Supposed To Be Love", 
             "Midnight Sun", 
@@ -1552,14 +2426,26 @@
         "date": "July 23 & 24, 1998", 
         "label": "Grapeshot", 
         "location": "Kampo Audio/Video, New York City", 
-        "personnel": [
-            "Jacques Schwartz Bart (ts)", 
-            "Rossen Zahariev (fh)", 
-            "Steve Kuhn (p)", 
-            "Chris Wood (b)", 
-            "Bob Moses (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bob Moses": [
+                "d"
+            ], 
+            "Chris Wood": [
+                "b"
+            ], 
+            "Jacques Schwartz Bart": [
+                "ts"
+            ], 
+            "Rossen Zahariev": [
+                "fh"
+            ], 
+            "Steve Kuhn": [
+                "p"
+            ]
+        }, 
         "songs": [
             "How Deep Is The Ocean"
         ]
@@ -1568,12 +2454,20 @@
         "date": "April 24, 1999", 
         "label": "[private recording]", 
         "location": "Fabrik, Hamburg, Germany", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "John Ormond (b)", 
-            "Rodney Green (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Rodney Green": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Another World", 
             "And It's Supposed To Be Love", 
@@ -1588,12 +2482,20 @@
         "date": "October 30, 1999", 
         "label": "[radio broadcast]", 
         "location": "Oosterpoort, Gr\u00f6ningen, Netherlands", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "John Ormond (b)", 
-            "Jaz Sawyer (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Marc Cary": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Throw It Away", 
             "Down Here Below", 
@@ -1606,16 +2508,32 @@
         "date": "ca.  February 18, 2000", 
         "label": "Verve", 
         "location": "Right Track Studio, New York City", 
-        "personnel": [
-            "Joe Lovano (ts)", 
-            "Jerry Gonzalez (t)", 
-            "Kendra Shank (g)", 
-            "Brandon McCune (p)", 
-            "John Ormond (b)", 
-            "Jaz Sawyer (d)", 
-            "Jennifer Vincent (vc)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Brandon McCune": [
+                "p"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "Jennifer Vincent": [
+                "vc"
+            ], 
+            "Jerry Gonzalez": [
+                "t"
+            ], 
+            "Joe Lovano": [
+                "ts"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Kendra Shank": [
+                "g"
+            ]
+        }, 
         "songs": [
             "When The Lights Go On Again", 
             "Blackberry Blossoms", 
@@ -1632,9 +2550,11 @@
         "date": "April 23, 2000", 
         "label": "Verve", 
         "location": "BMG Studios, New York City", 
-        "personnel": [
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ]
+        }, 
         "songs": [
             "Tender As A Rose"
         ]
@@ -1643,12 +2563,20 @@
         "date": "ca.  September 2000", 
         "label": "[radio broadcast]", 
         "location": "Ford Detroit International Jazz Festival, Detroit, MI", 
-        "personnel": [
-            "Brandon McCune (p)", 
-            "John Ormond (b)", 
-            "Jaz Sawyer (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Brandon McCune": [
+                "p"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "John Ormond": [
+                "b"
+            ]
+        }, 
         "songs": [
             "Throw It Away", 
             "Midnight Sun", 
@@ -1660,10 +2588,14 @@
         "date": "November 26, 2000", 
         "label": "[private recording]", 
         "location": "St. Peter's Church, New York City", 
-        "personnel": [
-            "Frank Owens (p)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Frank Owens": [
+                "p"
+            ]
+        }, 
         "songs": [
             "[unknown title]"
         ]
@@ -1672,16 +2604,33 @@
         "date": "March 7, 2002", 
         "label": "[private recording]", 
         "location": "Alice Tully Hall, New York City", 
-        "personnel": [
-            "Joe Lovano (ss, ts)", 
-            "James Weidman (p)", 
-            "Michael Bowie (b)", 
-            "John Lampkin (d)", 
-            "Jennifer Vincent (vc)", 
-            "Abbey Lincoln (v)", 
-            "Stacie Precia (v)", 
-            "Bemshee Shirer (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "James Weidman": [
+                "p"
+            ], 
+            "Jennifer Vincent": [
+                "vc"
+            ], 
+            "Joe Lovano": [
+                "ss", 
+                "ts"
+            ], 
+            "John Lampkin": [
+                "d"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Stacie Precia": [
+                "v"
+            ]
+        }, 
         "songs": [
             "The World Is Falling Down", 
             "Bird Alone", 
@@ -1704,16 +2653,32 @@
         "date": "March 8, 2002", 
         "label": "[private recording]", 
         "location": "Alice Tully Hall, New York City", 
-        "personnel": [
-            "Steve Coleman (as)", 
-            "Rodney Kendrick (p)", 
-            "Michael Bowie (b)", 
-            "Alvester Garnett (d)", 
-            "Kahlil Kwame Bell (per)", 
-            "Abbey Lincoln (v)", 
-            "Stacie Precia (v)", 
-            "Bemshee Shirer (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Alvester Garnett": [
+                "d"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "Kahlil Kwame Bell": [
+                "per"
+            ], 
+            "Michael Bowie": [
+                "b"
+            ], 
+            "Rodney Kendrick": [
+                "p"
+            ], 
+            "Stacie Precia": [
+                "v"
+            ], 
+            "Steve Coleman": [
+                "as"
+            ]
+        }, 
         "songs": [
             "The River", 
             "The Music Is The Magic", 
@@ -1736,19 +2701,41 @@
         "date": "March 9, 2002", 
         "label": "[private recording]", 
         "location": "Alice Tully Hall, New York City", 
-        "personnel": [
-            "Steve Coleman (as)", 
-            "Marc Cary (p)", 
-            "John Ormond (b)", 
-            "Jaz Sawyer (d)", 
-            "Kahlil Kwame Bell (per)", 
-            "Jennifer Vincent (vc)", 
-            "Freddy Cole (v)", 
-            "Abbey Lincoln (v)", 
-            "Stacie Precia (v)", 
-            "Bemshee Shirer (v)", 
-            "Savion Glover (dnc)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Bemshee Shirer": [
+                "v"
+            ], 
+            "Freddy Cole": [
+                "v"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "Jennifer Vincent": [
+                "vc"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Kahlil Kwame Bell": [
+                "per"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Savion Glover": [
+                "dnc"
+            ], 
+            "Stacie Precia": [
+                "v"
+            ], 
+            "Steve Coleman": [
+                "as"
+            ]
+        }, 
         "songs": [
             "Hey, Lordy Mama", 
             "Jungle Queen", 
@@ -1771,9 +2758,11 @@
         "date": "May 10, 2002", 
         "label": "[private recording]", 
         "location": "Abbey Lincoln's home, New York City", 
-        "personnel": [
-            "Abbey Lincoln (spk)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "spk"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1782,12 +2771,20 @@
         "date": "July 12, 2002", 
         "label": "[radio broadcast]", 
         "location": "Mariahilferplatz, Graz, Austria", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "John Ormond (b)", 
-            "Jaz Sawyer (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "John Ormond": [
+                "b"
+            ], 
+            "Marc Cary": [
+                "p"
+            ]
+        }, 
         "songs": [
             "Wholly Earth", 
             "Down Here Below", 
@@ -1802,11 +2799,17 @@
         "date": "October 25, 2002", 
         "label": "[private recording]", 
         "location": "San Francisco Jazz Festival, San Francisco, CA", 
-        "personnel": [
-            "Hank Crawford (as)", 
-            "Abbey Lincoln (v)", 
-            "Jimmy Scott (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Hank Crawford": [
+                "as"
+            ], 
+            "Jimmy Scott": [
+                "v"
+            ]
+        }, 
         "songs": [
             "[unknown titles]"
         ]
@@ -1815,40 +2818,107 @@
         "date": "November 25-27, 2002", 
         "label": "Verve", 
         "location": "Sear Sound, New York City", 
-        "personnel": [
-            "Susan Niedel-Palma (f)", 
-            "Susan Rotholv (f)", 
-            "James Spaulding (f, as)", 
-            "Steve Hartman (cl, bcl)", 
-            "Shari Hoffman (cl)", 
-            "Julien Lourau (ss, ts)", 
-            "Bob Carlisle (frh)", 
-            "Dan Culpepper (frh)", 
-            "Jeff Lang (frh)", 
-            "Stewart Rose (frh)", 
-            "Kenny Barron (p)", 
-            "Ray Drummond (b)", 
-            "Jaz Sawyer (d)", 
-            "Sanford Allen (vn)", 
-            "Jonathan Dinklege (vn)", 
-            "Joyce Hammann (vn)", 
-            "Ashley Horn (vn)", 
-            "Regis Iandiorio (vn)", 
-            "Pauline Kim (vn)", 
-            "Belinda Whitney (vn)", 
-            "Kristof Witek (vn)", 
-            "Robin Zeh (vn)", 
-            "Ted Ackerman (vc)", 
-            "Akua Dixon Turre (vc)", 
-            "David Heiss (vc)", 
-            "Ariane Lallemand (vc)", 
-            "Richard Locker (vc)", 
-            "Alexandra McKenzie (vc)", 
-            "Kermit Moore (vc)", 
-            "Abbey Lincoln (v)", 
-            "Alan Broadbent (con)", 
-            "Laurent Cugny (con)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Akua Dixon Turre": [
+                "vc"
+            ], 
+            "Alan Broadbent": [
+                "con"
+            ], 
+            "Alexandra McKenzie": [
+                "vc"
+            ], 
+            "Ariane Lallemand": [
+                "vc"
+            ], 
+            "Ashley Horn": [
+                "vn"
+            ], 
+            "Belinda Whitney": [
+                "vn"
+            ], 
+            "Bob Carlisle": [
+                "frh"
+            ], 
+            "Dan Culpepper": [
+                "frh"
+            ], 
+            "David Heiss": [
+                "vc"
+            ], 
+            "James Spaulding": [
+                "f", 
+                "as"
+            ], 
+            "Jaz Sawyer": [
+                "d"
+            ], 
+            "Jeff Lang": [
+                "frh"
+            ], 
+            "Jonathan Dinklege": [
+                "vn"
+            ], 
+            "Joyce Hammann": [
+                "vn"
+            ], 
+            "Julien Lourau": [
+                "ss", 
+                "ts"
+            ], 
+            "Kenny Barron": [
+                "p"
+            ], 
+            "Kermit Moore": [
+                "vc"
+            ], 
+            "Kristof Witek": [
+                "vn"
+            ], 
+            "Laurent Cugny": [
+                "con"
+            ], 
+            "Pauline Kim": [
+                "vn"
+            ], 
+            "Ray Drummond": [
+                "b"
+            ], 
+            "Regis Iandiorio": [
+                "vn"
+            ], 
+            "Richard Locker": [
+                "vc"
+            ], 
+            "Robin Zeh": [
+                "vn"
+            ], 
+            "Sanford Allen": [
+                "vn"
+            ], 
+            "Shari Hoffman": [
+                "cl"
+            ], 
+            "Steve Hartman": [
+                "cl", 
+                "bcl"
+            ], 
+            "Stewart Rose": [
+                "frh"
+            ], 
+            "Susan Niedel-Palma": [
+                "f"
+            ], 
+            "Susan Rotholv": [
+                "f"
+            ], 
+            "Ted Ackerman": [
+                "vc"
+            ]
+        }, 
         "songs": [
             "Skylark", 
             "Love Is Made", 
@@ -1867,12 +2937,20 @@
         "date": "September 17, 2005", 
         "label": "[television broadcast]", 
         "location": "Frederick P. Rose Hall, Lincoln Center, New York City", 
-        "personnel": [
-            "Marc Cary (p)", 
-            "Reginald Veal (b)", 
-            "Ali Jackson (d)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Ali Jackson": [
+                "d"
+            ], 
+            "Marc Cary": [
+                "p"
+            ], 
+            "Reginald Veal": [
+                "b"
+            ]
+        }, 
         "songs": [
             "For All We Know"
         ]
@@ -1881,13 +2959,23 @@
         "date": "ca.  September 25, 2006", 
         "label": "Verve", 
         "location": "", 
-        "personnel": [
-            "Gil Goldstein (acc)", 
-            "Scott Colley (b)", 
-            "Shawn Pelton (d)", 
-            "Dave Eggar (vc)", 
-            "Abbey Lincoln (v)"
-        ], 
+        "personnel": {
+            "Abbey Lincoln": [
+                "v"
+            ], 
+            "Dave Eggar": [
+                "vc"
+            ], 
+            "Gil Goldstein": [
+                "acc"
+            ], 
+            "Scott Colley": [
+                "b"
+            ], 
+            "Shawn Pelton": [
+                "d"
+            ]
+        }, 
         "songs": [
             "Monkery's The Blues [lyric version of Blue Monk]", 
             "Throw It Away", 
