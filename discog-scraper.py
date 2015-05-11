@@ -25,9 +25,11 @@ for fragment in fragment_list:
 	# empty sub-dict
 	session = {}
 	session['date'] = ''
+	session['year'] = ''
 	session['location'] = ''
 	session['label'] = ''
 	session['personnel'] = ''
+	session['ensemble_size'] = ''
 
 	# find all the spans in the session header
 	session_spans = fragment_soup.find_all('span', class_= 'rptLabel')
@@ -39,6 +41,11 @@ for fragment in fragment_list:
 
 			if a_session_head_element.string == 'Date: ':
 				session['date'] = a_session_head_element.next_element
+
+				# find year in date '(19|20)\d{2}$'
+				find_year = re.compile('(19|20)\d{2}$')
+				year_match = re.search(find_year, session['date'])
+				session['year'] = year_match.group(0)
 
 			if a_session_head_element.string == 'Location: ':
 				session['location'] = a_session_head_element.next_element
@@ -87,41 +94,85 @@ for fragment in fragment_list:
 
 			#the instrument string, with parentheses
 			ax = ax_match.group(0)
-			
+		
+			#are we dealing with a group of people on the same instrument? 
+			#clean up the person name and add the instrument to each person
 			if group:
+				#if group, split names into a list
 				sub_list = person.split(', ')
 				for x in sub_list:
+					#pull out the instrument from the list
 					if ax in x:
 						x = find_ax.sub('', x)
-					
-					#clean up the name, remove parenthesis from instrument, and since some musicians have more than one instrument, split instruments into list
+					#then, clean up the instrument abbreviation and split the instruments into a list
 					personnel_subdict[x.strip()] = ax.strip('()').split(', ')
 
+			#otherwise, we have one person with one or more instruments
 			else:
 				person = find_ax.sub('', person)
 				personnel_subdict[person.strip()] = ax.strip('()').split(', ')
+			
 
 
 		#write to the subdict
 		session['personnel'] = personnel_subdict
+		session['ensemble_size'] = len(personnel_subdict)
+
 
 	# let's get some songs!
 	session_songs = fragment_soup.find_all('span', class_='PerfTitle')
-	songs = []
+	songs = {}
 	for session_song in session_songs:
+		song = {}
 		if session_song.string is not None:
-			if session_song.string not in songs:
-				songs.append(session_song.string)
+			song['title'] = session_song.string
+
+			siblings = session_song.next_siblings
+			for sibling in siblings:
+
+				if sibling.string is not None:
+					if ':' in sibling.string and '-' in sibling.string:
+						song['timing'] = sibling.string.lstrip(' - ').strip()
+					if '(' in sibling.string and ':' not in sibling.string:
+						song['composer'] = sibling.string.strip().lstrip('(').rstrip(')').strip()
+					if 'arr:' in sibling.string:
+						song['arranger'] = sibling.string.strip().lstrip('/ arr: ').strip()
+
+
+			song_num = session_song.parent.parent.find('i').string.replace('.', '')
+			songs[song_num] = song
 
 	session['songs'] = songs
+	session['song_count'] = len(songs)
 
 	# need to add the composers & arrangers
 
+	# grab the exceptions
+	session_excepts = fragment_soup.find('p', class_='SessPersExcp')
+	# this is a NavigableString, so use get_text instead of string
+	if session_excepts is not None:
+		session['exceptions'] = session_excepts.get_text().replace('  ', ' ')
+
 	# grab the notes
+	session_notes = fragment_soup.find('p', class_='SessRptNotes')
+	if session_notes is not None:
+		if session_notes.string is not None:
+			session['notes'] = session_notes.string
 
+	#open the instrument name look-up dictionary and replace abbreviations with full instrument names
+	#comment out this section if you want to keep instrument abbreviations
+	with codecs.open('data/instruments.json', encoding='utf-8') as filename:
+		instruments = json.load(filename)
 
+		for person in session['personnel']:
+			instrument_list = []
+			for instr in session['personnel'][person]:
+				instrument = instruments[instr]
+				instrument_list.append(instrument)
+			session['personnel'][person] = instrument_list
 
-
+	#close the instruments file
+	filename.close
 
 	# check if we actually have data in the sub dict
 	if session['date'] == '' and session['location'] == '' and session['personnel'] == '':
@@ -157,3 +208,4 @@ with codecs.open('data/'+name+'_discog.json', 'w', encoding='utf-8') as json_out
 json_out.close
 
 print ("All done! Your files for", name_input, "are ready.")
+
